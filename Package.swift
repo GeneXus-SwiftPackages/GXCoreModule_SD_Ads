@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_AdsWrapper",
 				dependencies: [
 					"GXCoreModule_SD_Ads",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Ads",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Ads-1.0.0-beta+20230314121632.xcframework.zip",
-			checksum: "05d09df1c6eef3a191a32d2d8aad12c26bf3f4a3f358a8aad40a670d98c7244f"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Ads-1.0.0-beta+20230315120127.xcframework.zip",
+			checksum: "28caa7af9dd0155d3896a7cb470cc62b936388bb8f1a497abf13fa97eec3341a"
 		)
 	]
 )
