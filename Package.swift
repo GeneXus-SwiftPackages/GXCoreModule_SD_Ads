@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Ads",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Ads-1.0.0-beta+20230505145632.xcframework.zip",
-			checksum: "65ff17420ee5f486a6058d34e5f34ded29c1eef2ac8a806952f08ed1cd2cef05"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Ads-1.0.0-beta+20230509131236.xcframework.zip",
+			checksum: "39df7d3688681c22a349ad1d3b212b7595c8e4a156932deaea9c1c2f4654d37f"
 		)
 	]
 )
