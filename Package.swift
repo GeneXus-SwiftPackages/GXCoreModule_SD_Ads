@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXCoreModule_SD_Ads",
-	platforms: [.iOS("13.0"), .tvOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .tvOS("18.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXCoreModule_SD_Ads",
 			targets: ["GXCoreModule_SD_AdsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.15")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_AdsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Ads",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreModule_SD_Ads-3.0.0-rc.8.xcframework.zip",
-			checksum: "b1ffa0bbfb855db9e56c78fe45ba00461f9a58dc8010edbc76da2c473fdc2378"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreModule_SD_Ads-3.0.0-rc.15.xcframework.zip",
+			checksum: "d95a1268c76980d1d7532a7e1241ca95cdd3c2d42ab22920f8e96db67fdc5783"
 		)
 	]
 )
