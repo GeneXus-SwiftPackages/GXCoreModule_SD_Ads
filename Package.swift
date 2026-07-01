@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_AdsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.3")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.5")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_AdsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Ads",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Ads-4.1.3.xcframework.zip",
-			checksum: "b7576f47a33477f92652d4ba0e22a1250591d90328f3b576e5b7ce829d4d67a3"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Ads-4.1.5.xcframework.zip",
+			checksum: "263866b539910310d09fd9cf5c084c1f9c3397e8718e22334793a03b28eb2def"
 		)
 	]
 )
